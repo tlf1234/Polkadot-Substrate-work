@@ -1,0 +1,23 @@
+{
+    "name": "js-component",
+    "version": "0.1.0",
+    "description": "Demo connecting to Substrate Node",
+    "main": "index.js",
+    "author": "tang",
+    "license":"UNLICENSED",
+    "private": false,
+
+    "dependencies": {
+    "@polkadot/api": "^10.6.1",
+    "@polkadot/types": "^10.6.1",
+    "web3": "^1.5.1"
+    },
+    "scripts": {
+      "start": "ts-node main.ts"
+    },
+
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+      }
+
+}
